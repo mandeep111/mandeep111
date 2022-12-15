@@ -1,5 +1,7 @@
-### Hi there, Welcome to my github account 👋
-
+### Hi there, Welcome to my github account 👋 ![](https://komarev.com/ghpvc/?username=mandeep369&color=green)
+<div id="header" align="center">
+  <img src="https://media2.giphy.com/media/QNFhOolVeCzPQ2Mx85/giphy.gif?cid=ecf05e47ne1jagw2ciryh7079wlhhnkuuy0a1unl7v7vk2ei&rid=giphy.gif&ct=g" width="100"/>
+</div>
 - :telescope: I’m working as a Software Engineer and contributing to frontend and backend for building web applications.
 
 - :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mandeep-dhakal-4529a7158/) or [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mandeepdhakal11@gmail.com)
@@ -17,6 +19,10 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" title="AWS" alt="AWS" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>
 </div>
+
+### :cowboy_hat_face: Contributions
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=mandeep369&theme=dark&hide_border=true&border_radius=5)](https://git.io/streak-stats)
+
 
 <!--
 **mandeep111/mandeep111** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
