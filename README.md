@@ -21,8 +21,9 @@
 
 ### :cowboy_hat_face: Contributions
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=mandeep111&theme=dark&hide_border=true&border_radius=5)](https://git.io/streak-stats)
-![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=mandeep111&show_icons=true&theme=dark)
-[![Mandeep's GitHub stats](https://github-readme-stats.vercel.app/api?username=mandeep111)](https://github.com/mandeep111/mandeep111)
+[![Mandeep's GitHub stats](https://github-readme-stats.vercel.app/api?username=mandeep111&show_icons=true&theme=dark)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mandeep111&layout=compact&langs_count=8)](https://github.com/anuraghazra/github-readme-stats)
+
 
 
 
