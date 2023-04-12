@@ -1,6 +1,6 @@
 ### Hi there, Welcome to my github account 👋 ![](https://komarev.com/ghpvc/?username=mandeep369&color=green)
 
-:telescope: I’m working as a Software Engineer and contributing to frontend and backend for building web applications.
+:telescope: I’m working as a Software Engineer and contributing to frontend and backend for building web or mobile applications.
   <div id="header">
     <img src="https://media2.giphy.com/media/QNFhOolVeCzPQ2Mx85/giphy.gif?cid=ecf05e47ne1jagw2ciryh7079wlhhnkuuy0a1unl7v7vk2ei&rid=giphy.gif&ct=g" width="100"/>
   </div>
