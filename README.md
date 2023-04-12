@@ -4,6 +4,9 @@
   <div id="header">
     <img src="https://media2.giphy.com/media/QNFhOolVeCzPQ2Mx85/giphy.gif?cid=ecf05e47ne1jagw2ciryh7079wlhhnkuuy0a1unl7v7vk2ei&rid=giphy.gif&ct=g" width="100"/>
   </div>
+  
+### 📫 How to reach me:
+[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mandeep-dhakal-4529a7158/) or [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mandeepdhakal11@gmail.com)
 
 ### :hammer_and_wrench: Languages and Tools that I have been using.
 <div>
@@ -26,9 +29,7 @@
 [![Mandeep's GitHub stats](https://github-readme-stats.vercel.app/api?username=mandeep111&show_icons=true&theme=dark)](https://github.com/mandeep111/mandeep111)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mandeep111&langs_count=6&hide=python)](https://github.com/mandeep111/mandeep111)
 
-<div></div>
-### 📫 How to reach me: ...
-[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mandeep-dhakal-4529a7158/) or [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mandeepdhakal11@gmail.com)
+
 <!--
 **mandeep111/mandeep111** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
