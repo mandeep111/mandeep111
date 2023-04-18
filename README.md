@@ -26,8 +26,9 @@
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=mandeep111&theme=dark&hide_border=true&border_radius=5)](https://github.com/mandeep111/mandeep111)
 
 ### ⚡Stats and Languages
-[![Mandeep's GitHub stats](https://github-readme-stats.vercel.app/api?username=mandeep111&show_icons=true&theme=dark)](https://github.com/mandeep111/mandeep111)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mandeep111&langs_count=6&hide=python)](https://github.com/mandeep111/mandeep111)
+[![Mandeep's GitHub stats](https://github-readme-stats.vercel.app/api?username=mandeep111&show_icons=true&theme=dark)](https://github.com/mandeep111/mandeep111)
+
 
 
 <!--
