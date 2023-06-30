@@ -19,21 +19,6 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           svg_out_path: dist/snake.svg
       
-      - name: Modify Snake Color
-        run: sed -i 's/fill="#ff69b4"/fill="#ffcc00"/g' dist/snake.svg
-
-      - name: Persist modified SVG
-        uses: actions/upload-artifact@v2
-        with:
-          name: modified-svg
-          path: dist/snake.svg
-
-      - name: Download modified SVG
-        uses: actions/download-artifact@v2
-        with:
-          name: modified-svg
-          path: dist/
-
       - name: Commit files
         run: |
           git config user.email "mandeepdhakal11@gmail.com"
