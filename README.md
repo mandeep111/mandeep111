@@ -5,7 +5,7 @@
     <img src="https://media2.giphy.com/media/QNFhOolVeCzPQ2Mx85/giphy.gif?cid=ecf05e47ne1jagw2ciryh7079wlhhnkuuy0a1unl7v7vk2ei&rid=giphy.gif&ct=g" width="100"/>
   </div>
   
-### 📫 How to reach me:
+### 📫 How to reach me 💬💬:
 [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mandeep-dhakal-4529a7158/) or [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mandeepdhakal11@gmail.com)
 
 ### :hammer_and_wrench: Languages and Tools that I have been using.
@@ -35,10 +35,6 @@
 
 
 <!--
-**mandeep111/mandeep111** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
