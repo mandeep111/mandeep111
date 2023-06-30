@@ -20,7 +20,7 @@ jobs:
           svg_out_path: dist/snake.svg
       
       - name: Modify Snake Color
-        run: sed -i 's/fill="#ff69b4"/fill="##ffcc00"/g' dist/snake.svg
+        run: sed -i 's/fill="#ff69b4"/fill="#ffcc00"/g' dist/snake.svg
 
       - name: Commit files
         run: |
