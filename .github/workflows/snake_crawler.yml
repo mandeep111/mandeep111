@@ -18,7 +18,7 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           svg_out_path: dist/snake.svg
-      
+          snake_color: "#ffcc00"
       - name: Commit files
         run: |
           git config user.email "mandeepdhakal11@gmail.com"
