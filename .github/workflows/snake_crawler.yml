@@ -27,7 +27,7 @@ jobs:
           git commit -m "update readme: snake crawler"
       
       - name: Push
-        uses: ad-m/github-push-action@main
+        uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.Snake_Crawler }}
           branch: ${{ github.ref }}
