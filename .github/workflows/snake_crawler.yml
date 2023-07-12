@@ -23,12 +23,6 @@ jobs:
         uses: dailydotdev/action-devcard@2.0.2
         with:
           devcard_id: ${{ secrets.DEVCARD_ID }}
-      
-      - name: Wait for Image Download
-        run: sleep 30
-        
-      - name: Move Image to Dist Folder
-        run: mv devcard.svg dist/devcard.svg
 
       - name: Commit files
         run: |
