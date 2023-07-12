@@ -33,8 +33,6 @@ jobs:
       
       - name: Pull
         uses: actions/checkout@v2
-        with:
-          branch: ${{ github.ref }}
       
       - name: Push
         uses: ad-m/github-push-action@master
