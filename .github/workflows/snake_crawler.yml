@@ -23,10 +23,14 @@ jobs:
         uses: dailydotdev/action-devcard@2.0.2
         with:
           devcard_id: ${{ secrets.DEVCARD_ID }}
-      - name: Pull
-        uses: actions/checkout@v2
-        with:
-          branch: ${{ github.ref }}
+          
+      - name: Move Image File
+        run: mv devcard.svg dist/devcard.svg
+
+#       - name: Pull
+#         uses: actions/checkout@v2
+#         with:
+#           branch: ${{ github.ref }}
       
       - name: Commit files
         run: |
@@ -35,8 +39,6 @@ jobs:
           git add .
           git commit -m "update readme: snake crawler" --allow-empty
       
-
-
       - name: Push
         uses: ad-m/github-push-action@master
         with:
