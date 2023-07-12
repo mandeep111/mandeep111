@@ -23,7 +23,6 @@ jobs:
         uses: dailydotdev/action-devcard@2.0.2
         with:
           devcard_id: ${{ secrets.DEVCARD_ID }}
-          svg_out_path: dist/devcard.svg
       
       - name: Commit files
         run: |
