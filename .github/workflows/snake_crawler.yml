@@ -24,7 +24,8 @@ jobs:
         with:
           devcard_id: ${{ secrets.DEVCARD_ID }}
           
-      - name: Move Image File
+      - name: Move Image to Dist Folder
+        if: steps.devcard.outcome == 'success'
         run: mv devcard.svg dist/devcard.svg
 
 #       - name: Pull
