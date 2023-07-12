@@ -23,7 +23,7 @@
 </div>
 
 ### :cowboy_hat_face: Contributions
-<a href="https://app.daily.dev/mandeep_dhakal"><img src="https://api.daily.dev/devcards/febeccc62f2643ae90fd73291a1364fe.png?r=y8v" width="200" alt="Mandeep Dhakal's Dev Card"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://app.daily.dev/mandeep_dhakal"><img src="https://github.com/mandeep111/mandeep111/blob/main/dist/devcard.svg?r=y8v" width="200" alt="Mandeep Dhakal's Dev Card"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=mandeep111&theme=dark&hide_border=true&border_radius=5)](https://github.com/mandeep111/mandeep111)
 
 ### ⚡Stats and Languages
