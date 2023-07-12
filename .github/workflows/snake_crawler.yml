@@ -23,22 +23,24 @@ jobs:
         uses: dailydotdev/action-devcard@2.0.2
         with:
           devcard_id: ${{ secrets.DEVCARD_ID }}
-          
+      
+      - name: Wait for Image Download
+        run: sleep 30
+        
       - name: Move Image to Dist Folder
-        if: steps.devcard.outcome == 'success'
         run: mv devcard.svg dist/devcard.svg
 
-#       - name: Pull
-#         uses: actions/checkout@v2
-#         with:
-#           branch: ${{ github.ref }}
-      
       - name: Commit files
         run: |
           git config user.email "mandeepdhakal11@gmail.com"
           git config user.name "mandeep111"
           git add .
           git commit -m "update readme: snake crawler" --allow-empty
+      
+      - name: Pull
+        uses: actions/checkout@v2
+        with:
+          branch: ${{ github.ref }}
       
       - name: Push
         uses: ad-m/github-push-action@master
