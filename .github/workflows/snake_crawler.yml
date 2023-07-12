@@ -19,6 +19,11 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           svg_out_path: dist/snake.svg
           palette: "ffcc00" 
+      - name: devcard
+        uses: dailydotdev/action-devcard@2.0.2
+        with:
+          devcard_id: ${{ secrets.DEVCARD_ID }}
+          svg_out_path: dist/devcard.svg
       
       - name: Commit files
         run: |
