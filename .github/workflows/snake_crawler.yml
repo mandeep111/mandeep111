@@ -14,19 +14,11 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v2
         
-      - name: Pull
-        run: |
-          git config user.email "mandeepdhakal11@gmail.com"
-          git config user.name "mandeep111"
-          git fetch
-          git pull origin main
-      
       - name: Generate Snake
         uses: Platane/snk@master
         with:
           github_user_name: ${{ github.repository_owner }}
           svg_out_path: dist/snake.svg
-          palette: "ffcc00" 
       
       - name: devcard
         uses: dailydotdev/action-devcard@2.0.2
@@ -35,12 +27,13 @@ jobs:
 
       - name: Commit files
         run: |
+          git config user.email "mandeepdhakal11@gmail.com"
+          git config user.name "mandeep111"
           git add .
           git commit -m "update readme: snake crawler" --allow-empty
+          git fetch
+          git pull origin main
       
       - name: Push
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.Snake_Crawler }}
-          branch: ${{ github.ref }}
-          push_strategy: "pull_request"
+        run: git push origin main
+
