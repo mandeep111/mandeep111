@@ -19,6 +19,8 @@ jobs:
           git config --global user.email "mandeepdhakal11@gmail.com"
           git config --global user.name "mandeep111"
           git fetch
+          git config pull.rebase false
+          git config pull.ff only
         
       - name: Generate Snake
         uses: Platane/snk@master
