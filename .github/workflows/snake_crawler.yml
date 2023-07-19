@@ -16,10 +16,9 @@ jobs:
         
       - name: Fetch and Pull
         run: |
-          git config user.email "mandeepdhakal11@gmail.com"
-          git config user.name "mandeep111"
+          git config --global user.email "mandeepdhakal11@gmail.com"
+          git config --global user.name "mandeep111"
           git fetch
-          git pull origin main
         
       - name: Generate Snake
         uses: Platane/snk@master
