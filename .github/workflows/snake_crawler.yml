@@ -26,7 +26,6 @@ jobs:
         uses: Platane/snk@master
         with:
           github_user_name: ${{ github.repository_owner }}
-          svg_out_path: dist/snake.svg
       
       - name: devcard
         uses: dailydotdev/action-devcard@2.0.2
