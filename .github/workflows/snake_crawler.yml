@@ -33,5 +33,7 @@ jobs:
           git commit -m "update readme: snake crawler" --allow-empty
       
       - name: Push
-        run: git push origin main
+        run: |
+          git pull origin main
+          git push origin main
 
