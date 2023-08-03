@@ -30,10 +30,11 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mandeep111&langs_count=6&hide=python)](https://github.com/mandeep111/mandeep111)&nbsp;&nbsp;
 [![Mandeep's GitHub stats](https://github-readme-stats.vercel.app/api?username=mandeep111&show_icons=true&theme=dark)](https://github.com/mandeep111/mandeep111)
 
+<!-- Snake Animation
 <div style="position: relative;">
   <img src="https://github.com/mandeep111/mandeep111/blob/main/dist/github-snake.svg" alt="Snake Animation" style="position: absolute; top: 0; left: 0; transform-origin: bottom left;" />
 </div>
-
+-->
 
 <!--
 - 🔭 I’m currently working on ...
