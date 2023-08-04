@@ -11,14 +11,16 @@ jobs:
   snake:
     runs-on: ubuntu-latest
     steps:
+      - name: Push
+        run: git pull origin main
       - name: Checkout Repo
         uses: actions/checkout@v2
       
-#       - name: Generate Snake
-#         uses: Platane/snk@master
-#         with:
-#           github_user_name: ${{ github.repository_owner }}
-#           svg_out_path: ${{ secrets.OUTPUT_DIR }}
+      - name: Generate Snake
+        uses: Platane/snk@master
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          svg_out_path: ${{ secrets.OUTPUT_DIR }}
       
       - name: devcard
         uses: dailydotdev/action-devcard@2.0.2
