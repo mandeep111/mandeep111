@@ -15,12 +15,6 @@ jobs:
 
       - name: Checkout Repo
         uses: actions/checkout@v2
-
-      - name: Pull
-        run: |
-          git config --global user.email "mandeepdhakal11@gmail.com"
-          git config --global user.name "mandeep111"
-          git pull --no-rebase origin main
       
       - name: Generate Snake
         uses: Platane/snk@master
@@ -35,8 +29,11 @@ jobs:
 
       - name: Commit files
         run: |
+          git config --global user.email "mandeepdhakal11@gmail.com"
+          git config --global user.name "mandeep111"
           git add .
           git commit -m "update readme: snake crawler" --allow-empty
+          git pull --no-rebase origin main
       
       - name: Push
         run: |
