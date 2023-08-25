@@ -20,7 +20,13 @@ jobs:
         uses: Platane/snk@master
         with:
           github_user_name: ${{ github.repository_owner }}
-          svg_out_path: ${{ secrets.OUTPUT_DIR }}
+          outputs: |
+            dist/github-snake.svg?color_snake=#E84545&color_dots=#FFF8EE,#FFD799,#FFC266,#FFAE33,#FF9A00
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake.gif?color_snake=#E84545&color_dots=#ffd180,#ffab00,#ff6d00,#ff9100,#ffa726
+        env:
+          # A GitHub token is required to fetch the contribution calendar from the GitHub API
+          GITHUB_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN }}
       
       - name: devcard
         uses: dailydotdev/action-devcard@2.0.2
