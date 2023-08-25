@@ -17,19 +17,19 @@ jobs:
         uses: actions/checkout@v2
       
       - name: Generate Snake
-        uses: Platane/snk@master
+      - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
             dist/dark.svg?palette=github-dark&color_snake=blue
             dist/light.svg?color_snake=#7845ab
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
-            dist/github-snake.svg?color_snake=#E84545&color_dots=#FFF8EE,#FFD799,#FFC266,#FFAE33,#FF9A00
-            dist/github-snake-dark.svg?palette=github-dark
-            dist/github-snake.gif?color_snake=#E84545&color_dots=#ffd180,#ffab00,#ff6d00,#ff9100,#ffa726
         env:
-        # a github token is required to fetch the contribution calendar from github API
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
       - name: devcard
         uses: dailydotdev/action-devcard@2.0.2
         with:
