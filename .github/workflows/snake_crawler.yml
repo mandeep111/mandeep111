@@ -28,9 +28,8 @@ jobs:
             dist/github-snake-dark.svg?palette=github-dark
             dist/github-snake.gif?color_snake=#E84545&color_dots=#ffd180,#ffab00,#ff6d00,#ff9100,#ffa726
         env:
-          # A GitHub token is required to fetch the contribution calendar from the GitHub API
-          GITHUB_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN }}
-      
+        # a github token is required to fetch the contribution calendar from github API
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
       - name: devcard
         uses: dailydotdev/action-devcard@2.0.2
         with:
