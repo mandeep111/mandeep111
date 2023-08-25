@@ -31,9 +31,9 @@
 [![Mandeep's GitHub stats](https://github-readme-stats.vercel.app/api?username=mandeep111&show_icons=true&theme=dark)](https://github.com/mandeep111/mandeep111)
 
 <div style="position: relative;">
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/mandeep111/mandeep111/blob/main/dist/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/mandeep111/mandeep111/blob/main/dist/github-snake.svg" />
-<!--   <img src="https://github.com/mandeep111/mandeep111/blob/main/dist/github-snake-dark.svg" alt="Snake Animation" style="position: absolute; top: 0; left: 0; transform-origin: bottom left;" /> -->
+<!--   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/mandeep111/mandeep111/blob/main/dist/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/mandeep111/mandeep111/blob/main/dist/github-snake.svg" /> -->
+  <img src="https://github.com/mandeep111/mandeep111/blob/main/dist/github-snake-dark.svg" alt="Snake Animation" style="position: absolute; top: 0; left: 0; transform-origin: bottom left;" />
 </div>
 
 
