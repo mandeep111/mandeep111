@@ -33,7 +33,7 @@
 <div style="position: relative;">
 <!--   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/mandeep111/mandeep111/blob/main/dist/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/mandeep111/mandeep111/blob/main/dist/github-snake.svg" /> -->
-  <img src="https://github.com/mandeep111/mandeep111/blob/main/dist/github-snake.svg" alt="Snake Animation" style="position: absolute; top: 0; left: 0; transform-origin: bottom left;" />
+  <img src="https://github.com/mandeep111/mandeep111/blob/main/dist/github-dark-snake.svg" alt="Snake Animation" style="position: absolute; top: 0; left: 0; transform-origin: bottom left;" />
 </div>
 
 
